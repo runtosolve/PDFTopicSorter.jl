@@ -1,0 +1,13 @@
+{
+  "id": "msg_test_tool",
+  "type": "message",
+  "role": "assistant",
+  "model": "claude-opus-5",
+  "stop_reason": "tool_use",
+  "content": [
+    {"type": "thinking", "thinking": "", "signature": "sig_test"},
+    {"type": "text", "text": "Let me check one ambiguous document."},
+    {"type": "tool_use", "id": "toolu_test_1", "name": "peek_pdf", "input": {"code": "P002"}}
+  ],
+  "usage": {"input_tokens": 400, "output_tokens": 40}
+}

@@ -1,0 +1,23 @@
+name = "PDFTopicSorter"
+uuid = "503675a5-5112-4112-a674-8517f4c4cff0"
+version = "0.1.0"
+authors = ["Cris Moen <cris.moen@runtosolve.com>"]
+
+[deps]
+Dates = "ade2ca70-3891-5945-98fb-dc099432e06a"
+HTTP = "cd3eb016-35fb-5094-929b-558a96fad6f3"
+JSON = "682c06a0-de6a-54ab-a142-c8b1cf79cde6"
+Logging = "56ddb016-857b-54e1-b83d-db4d58db5568"
+Poppler_jll = "9c32591e-4766-534b-9725-b71a8799265b"
+
+[compat]
+HTTP = "2.7.0"
+JSON = "1.8.1"
+Poppler_jll = "25.10.0"
+julia = "1.10"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]

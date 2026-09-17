@@ -1,0 +1,14 @@
+{
+  "id": "msg_test_messy",
+  "type": "message",
+  "role": "assistant",
+  "model": "claude-opus-5",
+  "stop_reason": "end_turn",
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"themes\":[{\"name\":\"Theme A\",\"codes\":[\"P001\"],\"topics\":[{\"name\":\"Topic A1\",\"codes\":[\"P001\",\"P999\"],\"subtopics\":[{\"name\":\"Empty Sub\",\"codes\":[\"P999\"]}]}]},{\"name\":\"Theme B\",\"codes\":[],\"topics\":[{\"name\":\"Topic B1\",\"codes\":[\"P002\"],\"subtopics\":[]}]}],\"unsorted\":[\"P002\"]}"
+    }
+  ],
+  "usage": {"input_tokens": 100, "output_tokens": 50}
+}
